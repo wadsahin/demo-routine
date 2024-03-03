@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routine Dashboard</title>
+    <style>
+        section{
+            display: grid;
+            grid-template-columns: column;
+            
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: darkgrey;
+            border-radius: 12px;
+                       
+        }
+        a{
+            padding: 20px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            font-size: 40px;
+            border-radius: 15px;
+            display: block;
+            width: 80%;
+            margin: 1% auto;
+            
+            column-gap: 30px;
+        }
+        .yes-duty-yes-campus{     
+            background-color: rgb(12, 29, 180);
+        }
+        .no-duty-no-campus{
+            background-color: orangered;
+            
+        }
+        .no-duty-yes-campus{
+            background-color: gold;
+
+        }
+        .yes-duty-no-campus{
+            background-color: yellowgreen;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <a class="yes-duty-yes-campus" href="yes-duty-yes-campus.html" target="_blank">Yes Duty & Yes Campus</a>
+        <a class="no-duty-no-campus" href="no-duty-no-campus.html" target="_blank">No Duty & No Campus</a>
+        <a class="no-duty-yes-campus" href="no-duty-yes-campus.html" target="_blank">No Duty & Yes Campus</a>
+        <a class="yes-duty-no-campus" href="yes-duty-no-campus.html" target="_blank">Yes Duty & No Campus</a>
+    </section>
+</body>
+</html>
